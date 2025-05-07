@@ -15,7 +15,7 @@ services:
   
   app1:
     image: node:latest
-    container_name: node_app1
+    container_name: app1
     build: 
       context: ./app
       dockerfile: Dockerfile
@@ -26,7 +26,7 @@ services:
 
   app2:
     image: node:latest
-    container_name: node_app2
+    container_name: app2
     build: 
       context: ./app
       dockerfile: Dockerfile
